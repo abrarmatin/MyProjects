@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C485ED1C3234FB00CF9BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C485EC1C3234FB00CF9BDF /* AppDelegate.swift */; };
+		12C485EF1C3234FB00CF9BDF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C485EE1C3234FB00CF9BDF /* MasterViewController.swift */; };
+		12C485F11C3234FB00CF9BDF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C485F01C3234FB00CF9BDF /* DetailViewController.swift */; };
+		12C485F41C3234FB00CF9BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C485F21C3234FB00CF9BDF /* Main.storyboard */; };
+		12C485F61C3234FB00CF9BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C485F51C3234FB00CF9BDF /* Assets.xcassets */; };
+		12C485F91C3234FB00CF9BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C485F71C3234FB00CF9BDF /* LaunchScreen.storyboard */; };
+		12C486041C3234FB00CF9BDF /* BoomigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C486031C3234FB00CF9BDF /* BoomigoTests.swift */; };
+		12C4860F1C3234FB00CF9BDF /* BoomigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4860E1C3234FB00CF9BDF /* BoomigoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12C486001C3234FB00CF9BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C485E11C3234FB00CF9BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C485E81C3234FB00CF9BDF;
+			remoteInfo = Boomigo;
+		};
+		12C4860B1C3234FB00CF9BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12C485E11C3234FB00CF9BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12C485E81C3234FB00CF9BDF;
+			remoteInfo = Boomigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12C485E91C3234FB00CF9BDF /* Boomigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boomigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C485EC1C3234FB00CF9BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12C485EE1C3234FB00CF9BDF /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		12C485F01C3234FB00CF9BDF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		12C485F31C3234FB00CF9BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12C485F51C3234FB00CF9BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12C485F81C3234FB00CF9BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12C485FA1C3234FB00CF9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C485FF1C3234FB00CF9BDF /* BoomigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C486031C3234FB00CF9BDF /* BoomigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomigoTests.swift; sourceTree = "<group>"; };
+		12C486051C3234FB00CF9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C4860A1C3234FB00CF9BDF /* BoomigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoomigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C4860E1C3234FB00CF9BDF /* BoomigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomigoUITests.swift; sourceTree = "<group>"; };
+		12C486101C3234FB00CF9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12C485E61C3234FB00CF9BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C485FC1C3234FB00CF9BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C486071C3234FB00CF9BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C485E01C3234FB00CF9BDF = {
+			isa = PBXGroup;
+			children = (
+				12C485EB1C3234FB00CF9BDF /* Boomigo */,
+				12C486021C3234FB00CF9BDF /* BoomigoTests */,
+				12C4860D1C3234FB00CF9BDF /* BoomigoUITests */,
+				12C485EA1C3234FB00CF9BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12C485EA1C3234FB00CF9BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12C485E91C3234FB00CF9BDF /* Boomigo.app */,
+				12C485FF1C3234FB00CF9BDF /* BoomigoTests.xctest */,
+				12C4860A1C3234FB00CF9BDF /* BoomigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C485EB1C3234FB00CF9BDF /* Boomigo */ = {
+			isa = PBXGroup;
+			children = (
+				12C485EC1C3234FB00CF9BDF /* AppDelegate.swift */,
+				12C485EE1C3234FB00CF9BDF /* MasterViewController.swift */,
+				12C485F01C3234FB00CF9BDF /* DetailViewController.swift */,
+				12C485F21C3234FB00CF9BDF /* Main.storyboard */,
+				12C485F51C3234FB00CF9BDF /* Assets.xcassets */,
+				12C485F71C3234FB00CF9BDF /* LaunchScreen.storyboard */,
+				12C485FA1C3234FB00CF9BDF /* Info.plist */,
+			);
+			path = Boomigo;
+			sourceTree = "<group>";
+		};
+		12C486021C3234FB00CF9BDF /* BoomigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12C486031C3234FB00CF9BDF /* BoomigoTests.swift */,
+				12C486051C3234FB00CF9BDF /* Info.plist */,
+			);
+			path = BoomigoTests;
+			sourceTree = "<group>";
+		};
+		12C4860D1C3234FB00CF9BDF /* BoomigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12C4860E1C3234FB00CF9BDF /* BoomigoUITests.swift */,
+				12C486101C3234FB00CF9BDF /* Info.plist */,
+			);
+			path = BoomigoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12C485E81C3234FB00CF9BDF /* Boomigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C486131C3234FB00CF9BDF /* Build configuration list for PBXNativeTarget "Boomigo" */;
+			buildPhases = (
+				12C485E51C3234FB00CF9BDF /* Sources */,
+				12C485E61C3234FB00CF9BDF /* Frameworks */,
+				12C485E71C3234FB00CF9BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boomigo;
+			productName = Boomigo;
+			productReference = 12C485E91C3234FB00CF9BDF /* Boomigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12C485FE1C3234FB00CF9BDF /* BoomigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C486161C3234FB00CF9BDF /* Build configuration list for PBXNativeTarget "BoomigoTests" */;
+			buildPhases = (
+				12C485FB1C3234FB00CF9BDF /* Sources */,
+				12C485FC1C3234FB00CF9BDF /* Frameworks */,
+				12C485FD1C3234FB00CF9BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C486011C3234FB00CF9BDF /* PBXTargetDependency */,
+			);
+			name = BoomigoTests;
+			productName = BoomigoTests;
+			productReference = 12C485FF1C3234FB00CF9BDF /* BoomigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12C486091C3234FB00CF9BDF /* BoomigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12C486191C3234FB00CF9BDF /* Build configuration list for PBXNativeTarget "BoomigoUITests" */;
+			buildPhases = (
+				12C486061C3234FB00CF9BDF /* Sources */,
+				12C486071C3234FB00CF9BDF /* Frameworks */,
+				12C486081C3234FB00CF9BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12C4860C1C3234FB00CF9BDF /* PBXTargetDependency */,
+			);
+			name = BoomigoUITests;
+			productName = BoomigoUITests;
+			productReference = 12C4860A1C3234FB00CF9BDF /* BoomigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12C485E11C3234FB00CF9BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Boomigo Inc.";
+				TargetAttributes = {
+					12C485E81C3234FB00CF9BDF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GYVHW4RX2S;
+					};
+					12C485FE1C3234FB00CF9BDF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GYVHW4RX2S;
+						TestTargetID = 12C485E81C3234FB00CF9BDF;
+					};
+					12C486091C3234FB00CF9BDF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GYVHW4RX2S;
+						TestTargetID = 12C485E81C3234FB00CF9BDF;
+					};
+				};
+			};
+			buildConfigurationList = 12C485E41C3234FB00CF9BDF /* Build configuration list for PBXProject "Boomigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12C485E01C3234FB00CF9BDF;
+			productRefGroup = 12C485EA1C3234FB00CF9BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12C485E81C3234FB00CF9BDF /* Boomigo */,
+				12C485FE1C3234FB00CF9BDF /* BoomigoTests */,
+				12C486091C3234FB00CF9BDF /* BoomigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12C485E71C3234FB00CF9BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C485F91C3234FB00CF9BDF /* LaunchScreen.storyboard in Resources */,
+				12C485F61C3234FB00CF9BDF /* Assets.xcassets in Resources */,
+				12C485F41C3234FB00CF9BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C485FD1C3234FB00CF9BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C486081C3234FB00CF9BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C485E51C3234FB00CF9BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C485F11C3234FB00CF9BDF /* DetailViewController.swift in Sources */,
+				12C485EF1C3234FB00CF9BDF /* MasterViewController.swift in Sources */,
+				12C485ED1C3234FB00CF9BDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C485FB1C3234FB00CF9BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C486041C3234FB00CF9BDF /* BoomigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C486061C3234FB00CF9BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C4860F1C3234FB00CF9BDF /* BoomigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12C486011C3234FB00CF9BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C485E81C3234FB00CF9BDF /* Boomigo */;
+			targetProxy = 12C486001C3234FB00CF9BDF /* PBXContainerItemProxy */;
+		};
+		12C4860C1C3234FB00CF9BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12C485E81C3234FB00CF9BDF /* Boomigo */;
+			targetProxy = 12C4860B1C3234FB00CF9BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12C485F21C3234FB00CF9BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C485F31C3234FB00CF9BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12C485F71C3234FB00CF9BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12C485F81C3234FB00CF9BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12C486111C3234FB00CF9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12C486121C3234FB00CF9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C486141C3234FB00CF9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Boomigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boomigo.io.Boomigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12C486151C3234FB00CF9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Boomigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boomigo.io.Boomigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12C486171C3234FB00CF9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoomigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boomigo.io.BoomigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boomigo.app/Boomigo";
+			};
+			name = Debug;
+		};
+		12C486181C3234FB00CF9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoomigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boomigo.io.BoomigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boomigo.app/Boomigo";
+			};
+			name = Release;
+		};
+		12C4861A1C3234FB00CF9BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BoomigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boomigo.io.BoomigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Boomigo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		12C4861B1C3234FB00CF9BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BoomigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boomigo.io.BoomigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Boomigo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12C485E41C3234FB00CF9BDF /* Build configuration list for PBXProject "Boomigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C486111C3234FB00CF9BDF /* Debug */,
+				12C486121C3234FB00CF9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12C486131C3234FB00CF9BDF /* Build configuration list for PBXNativeTarget "Boomigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C486141C3234FB00CF9BDF /* Debug */,
+				12C486151C3234FB00CF9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12C486161C3234FB00CF9BDF /* Build configuration list for PBXNativeTarget "BoomigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C486171C3234FB00CF9BDF /* Debug */,
+				12C486181C3234FB00CF9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12C486191C3234FB00CF9BDF /* Build configuration list for PBXNativeTarget "BoomigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C4861A1C3234FB00CF9BDF /* Debug */,
+				12C4861B1C3234FB00CF9BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12C485E11C3234FB00CF9BDF /* Project object */;
+}
