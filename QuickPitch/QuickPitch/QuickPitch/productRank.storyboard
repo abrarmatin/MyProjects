@@ -1,27 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="O6p-hP-BEV">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="xhZ-G9-y46">
+        <!--Top Products-->
+        <scene sceneID="Upr-IB-L8u">
             <objects>
-                <viewController id="3Df-b6-Q0L" sceneMemberID="viewController">
+                <navigationController id="O6p-hP-BEV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Top Products" image="bar-chart-3x" selectedImage="bar-chart-3x" id="vfW-gP-YZe"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W61-aX-X9A">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Jyd-bt-ahY" kind="relationship" relationship="rootViewController" id="ifR-UE-X4T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O7V-Q7-hAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="-636"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="H44-8u-HVq">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-LxT-p7-vhD" id="Jyd-bt-ahY" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Mwg-1j-PwU"/>
-                        <viewControllerLayoutGuide type="bottom" id="uCi-dt-qIh"/>
+                        <viewControllerLayoutGuide type="top" id="eSj-rs-HMR"/>
+                        <viewControllerLayoutGuide type="bottom" id="jbC-fY-w9f"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="uz2-dK-uM0">
+                    <view key="view" contentMode="scaleToFill" id="gnb-0S-Ciy">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Top Products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEC-Hn-XPV">
+                                <rect key="frame" x="279" y="289" width="127" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zIA-cN-WlU"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hpQ-Zr-mH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z02-fr-EfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="883" y="60"/>
+            <point key="canvasLocation" x="1809" y="-644"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bar-chart-3x" width="24" height="24"/>
+    </resources>
 </document>
