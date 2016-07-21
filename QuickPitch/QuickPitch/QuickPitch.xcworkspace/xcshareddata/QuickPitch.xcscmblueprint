@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "59155FCBAF42A32662F6592D6090F5754E42F1D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F0017DD473326728AAB244B736DFCBE8BB82CB78" : 0,
+    "59155FCBAF42A32662F6592D6090F5754E42F1D4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E67BB9D4-CAB1-480E-AB1A-67ABC31CFE73",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F0017DD473326728AAB244B736DFCBE8BB82CB78" : "Documents\/sampleProjects\/MDCSwipeToChoose\/",
+    "59155FCBAF42A32662F6592D6090F5754E42F1D4" : "MyProjects\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QuickPitch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuickPitch\/QuickPitch\/QuickPitch.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:abrarmatin\/MyProjects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59155FCBAF42A32662F6592D6090F5754E42F1D4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:modocache\/MDCSwipeToChoose.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0017DD473326728AAB244B736DFCBE8BB82CB78"
+    }
+  ]
+}

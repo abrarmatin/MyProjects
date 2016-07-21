@@ -1,0 +1,8 @@
+README
+1) go into QuickPitch/QuickPitch/QuickPitch (lol) through terminal. Once in that folder, open the podfile in Xcode. Make sure it is as follows:
+platform :ios, '7.0'
+target 'QuickPitch' do pod 'MDCSwipeToChoose' end
+2) If the podfile is okay, type "pod install" and wait until finished
+3) open up the quickpitch workspace and run.
+
+4) let me know if it still doesn't work.

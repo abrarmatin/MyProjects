@@ -5,15 +5,22 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Feed-->
+        <!--Explore-->
         <scene sceneID="HYN-v0-V2F">
             <objects>
                 <navigationController id="sy2-Qh-Gm3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Feed" image="browser-3x" id="f0Z-hb-frc"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="question-mark-3x" selectedImage="question-mark-3x" id="f0Z-hb-frc"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3db-6E-duV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.20784313725490197" green="0.21176470588235294" blue="0.83137254901960789" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.98824924230575562" blue="0.98797780275344849" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.20784313730000001" green="0.21176470589999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="pLw-kV-HPG" kind="relationship" relationship="rootViewController" id="SsE-ly-aow"/>
@@ -23,25 +30,17 @@
             </objects>
             <point key="canvasLocation" x="1000" y="736"/>
         </scene>
-        <!--View Controller-->
+        <!--Choose Person View Controller-->
         <scene sceneID="D5H-Qh-Wou">
             <objects>
-                <viewController storyboardIdentifier="UIViewController-YIQ-I6-lIU" id="pLw-kV-HPG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIViewController-YIQ-I6-lIU" id="pLw-kV-HPG" customClass="ChoosePersonViewController" customModule="QuickPitch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KhH-We-svB"/>
                         <viewControllerLayoutGuide type="bottom" id="AgX-96-FzT"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fPu-Pn-r5H">
+                    <view key="view" contentMode="scaleToFill" id="fPu-Pn-r5H" customClass="ChoosePersonView" customModule="QuickPitch" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="II9-Cp-heG">
-                                <rect key="frame" x="296" y="270" width="39" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="FtQ-AS-YBw"/>
@@ -52,6 +51,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="browser-3x" width="24" height="24"/>
+        <image name="question-mark-3x" width="24" height="24"/>
     </resources>
+    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

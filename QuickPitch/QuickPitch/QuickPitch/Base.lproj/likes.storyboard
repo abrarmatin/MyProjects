@@ -5,11 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Likes-->
+        <!--Favorites-->
         <scene sceneID="pat-qa-8p7">
             <objects>
                 <navigationController id="L9X-xl-Kg9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Likes" image="thumb-up-3x" id="eGZ-pL-Jby"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="thumb-up-3x" id="eGZ-pL-Jby"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m3Z-tY-emF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1202A4741D176B8400C7E17A /* feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202A4731D176B8400C7E17A /* feed.swift */; };
-		1202A4791D176C2100C7E17A /* likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202A4781D176C2100C7E17A /* likes.swift */; };
 		1202A47C1D176C5F00C7E17A /* investments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202A47B1D176C5F00C7E17A /* investments.swift */; };
 		1202A4831D176C9600C7E17A /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202A4821D176C9600C7E17A /* settings.swift */; };
+		123145AB1D402B1E00A19632 /* vidPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123145AA1D402B1E00A19632 /* vidPerson.swift */; };
 		1246A5891D1B54DC00B583B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246A5881D1B54DC00B583B2 /* AppDelegate.swift */; };
 		1259E1131D1AF609005B803E /* productRank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E1121D1AF609005B803E /* productRank.storyboard */; };
-		1259E1161D1AF7F5005B803E /* likes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E1141D1AF7F5005B803E /* likes.storyboard */; };
 		1259E1181D1AF9AE005B803E /* feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E1171D1AF9AE005B803E /* feed.storyboard */; };
 		1259E11B1D1AFA43005B803E /* investments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E1191D1AFA43005B803E /* investments.storyboard */; };
 		1259E11D1D1AFAA1005B803E /* settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E11C1D1AFAA1005B803E /* settings.storyboard */; };
@@ -21,6 +19,12 @@
 		127616821D14CC8200EBCA74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127616811D14CC8200EBCA74 /* Assets.xcassets */; };
 		127616851D14CC8200EBCA74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127616831D14CC8200EBCA74 /* LaunchScreen.storyboard */; };
 		127616901D14CC8200EBCA74 /* QuickPitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276168F1D14CC8200EBCA74 /* QuickPitchTests.swift */; };
+		12806B5F1D1B67D400163666 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12806B5B1D1B67D400163666 /* Person.swift */; };
+		12806B601D1B67D400163666 /* ChoosePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12806B5C1D1B67D400163666 /* ChoosePersonViewController.swift */; };
+		12806B611D1B67D400163666 /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12806B5D1D1B67D400163666 /* ImageLabelView.swift */; };
+		12806B621D1B67D400163666 /* ChoosePersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12806B5E1D1B67D400163666 /* ChoosePersonView.swift */; };
+		12806B661D1B689400163666 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12806B641D1B689400163666 /* Info.plist */; };
+		F8CDFD04DAC5CEFE8826D484 /* libPods-QuickPitch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3473D317FF05ED73C0A1471F /* libPods-QuickPitch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1202A4731D176B8400C7E17A /* feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feed.swift; sourceTree = "<group>"; };
-		1202A4781D176C2100C7E17A /* likes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = likes.swift; path = ../likes.swift; sourceTree = "<group>"; };
 		1202A47B1D176C5F00C7E17A /* investments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = investments.swift; sourceTree = "<group>"; };
 		1202A4821D176C9600C7E17A /* settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settings.swift; path = QuickPitch/settings.swift; sourceTree = "<group>"; };
+		123145AA1D402B1E00A19632 /* vidPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vidPerson.swift; sourceTree = "<group>"; };
 		1246A5881D1B54DC00B583B2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/AppDelegate.swift; sourceTree = "<group>"; };
 		1259E1121D1AF609005B803E /* productRank.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = productRank.storyboard; sourceTree = "<group>"; };
-		1259E1151D1AF7F5005B803E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/likes.storyboard; sourceTree = "<group>"; };
 		1259E1171D1AF9AE005B803E /* feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = feed.storyboard; sourceTree = "<group>"; };
 		1259E11A1D1AFA43005B803E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/investments.storyboard; sourceTree = "<group>"; };
 		1259E11C1D1AFAA1005B803E /* settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = settings.storyboard; path = QuickPitch/settings.storyboard; sourceTree = "<group>"; };
@@ -52,6 +54,15 @@
 		1276168B1D14CC8200EBCA74 /* QuickPitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickPitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1276168F1D14CC8200EBCA74 /* QuickPitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPitchTests.swift; sourceTree = "<group>"; };
 		127616911D14CC8200EBCA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12806B5B1D1B67D400163666 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/Person.swift; sourceTree = "<group>"; };
+		12806B5C1D1B67D400163666 /* ChoosePersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoosePersonViewController.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonViewController.swift; sourceTree = "<group>"; };
+		12806B5D1D1B67D400163666 /* ImageLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLabelView.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ImageLabelView.swift; sourceTree = "<group>"; };
+		12806B5E1D1B67D400163666 /* ChoosePersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoosePersonView.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonView.swift; sourceTree = "<group>"; };
+		12806B631D1B684200163666 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BridgingHeader.h; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/BridgingHeader.h; sourceTree = "<group>"; };
+		12806B641D1B689400163666 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3473D317FF05ED73C0A1471F /* libPods-QuickPitch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickPitch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C592FA220B03D9E0D71685A /* Pods-QuickPitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickPitch/Pods-QuickPitch.release.xcconfig"; sourceTree = "<group>"; };
+		AF3C7B907740BAE1C6B4B8C5 /* Pods-QuickPitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickPitch/Pods-QuickPitch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CDFD04DAC5CEFE8826D484 /* libPods-QuickPitch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +84,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1202A46D1D176AF500C7E17A /* productRankTab */ = {
+		1202A46D1D176AF500C7E17A /* searchTab */ = {
 			isa = PBXGroup;
 			children = (
 				1259E1121D1AF609005B803E /* productRank.storyboard */,
 			);
-			name = productRankTab;
+			name = searchTab;
 			sourceTree = "<group>";
 		};
 		1202A46E1D176B1500C7E17A /* MAIN */ = {
@@ -89,22 +101,25 @@
 			name = MAIN;
 			sourceTree = "<group>";
 		};
-		1202A4751D176B8A00C7E17A /* feedTab */ = {
+		1202A4751D176B8A00C7E17A /* exploreTab */ = {
 			isa = PBXGroup;
 			children = (
-				1202A4731D176B8400C7E17A /* feed.swift */,
+				12806B631D1B684200163666 /* BridgingHeader.h */,
+				12806B5B1D1B67D400163666 /* Person.swift */,
+				123145AA1D402B1E00A19632 /* vidPerson.swift */,
+				12806B5C1D1B67D400163666 /* ChoosePersonViewController.swift */,
+				12806B5D1D1B67D400163666 /* ImageLabelView.swift */,
+				12806B5E1D1B67D400163666 /* ChoosePersonView.swift */,
 				1259E1171D1AF9AE005B803E /* feed.storyboard */,
 			);
-			name = feedTab;
+			name = exploreTab;
 			sourceTree = "<group>";
 		};
-		1202A47A1D176C2C00C7E17A /* likesTab */ = {
+		1202A47A1D176C2C00C7E17A /* favoritesTab */ = {
 			isa = PBXGroup;
 			children = (
-				1202A4781D176C2100C7E17A /* likes.swift */,
-				1259E1141D1AF7F5005B803E /* likes.storyboard */,
 			);
-			name = likesTab;
+			name = favoritesTab;
 			sourceTree = "<group>";
 		};
 		1202A47F1D176C7500C7E17A /* investmentsTab */ = {
@@ -132,6 +147,8 @@
 				127616771D14CC8200EBCA74 /* QuickPitch */,
 				1276168E1D14CC8200EBCA74 /* QuickPitchTests */,
 				127616761D14CC8200EBCA74 /* Products */,
+				88D6FE2072C5141B72ACA1FC /* Pods */,
+				4320DF49734A003AE0AEF2BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,10 +164,11 @@
 		127616771D14CC8200EBCA74 /* QuickPitch */ = {
 			isa = PBXGroup;
 			children = (
+				12806B651D1B689400163666 /* Supporting Files */,
 				1202A46E1D176B1500C7E17A /* MAIN */,
-				1202A46D1D176AF500C7E17A /* productRankTab */,
-				1202A47A1D176C2C00C7E17A /* likesTab */,
-				1202A4751D176B8A00C7E17A /* feedTab */,
+				1202A46D1D176AF500C7E17A /* searchTab */,
+				1202A47A1D176C2C00C7E17A /* favoritesTab */,
+				1202A4751D176B8A00C7E17A /* exploreTab */,
 				1202A47F1D176C7500C7E17A /* investmentsTab */,
 				1202A4841D176CA300C7E17A /* settingsTab */,
 				127616811D14CC8200EBCA74 /* Assets.xcassets */,
@@ -169,6 +187,32 @@
 			path = QuickPitchTests;
 			sourceTree = SOURCE_ROOT;
 		};
+		12806B651D1B689400163666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12806B641D1B689400163666 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope;
+			sourceTree = "<group>";
+		};
+		4320DF49734A003AE0AEF2BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3473D317FF05ED73C0A1471F /* libPods-QuickPitch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88D6FE2072C5141B72ACA1FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C7B907740BAE1C6B4B8C5 /* Pods-QuickPitch.debug.xcconfig */,
+				9C592FA220B03D9E0D71685A /* Pods-QuickPitch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 127616941D14CC8200EBCA74 /* Build configuration list for PBXNativeTarget "QuickPitch" */;
 			buildPhases = (
+				E2AE12B160E33E6DDC142BDB /* [CP] Check Pods Manifest.lock */,
 				127616711D14CC8200EBCA74 /* Sources */,
 				127616721D14CC8200EBCA74 /* Frameworks */,
 				127616731D14CC8200EBCA74 /* Resources */,
+				157D73866CCC7BA04AE30EE4 /* [CP] Embed Pods Frameworks */,
+				905E6D51AAEF52D69B61E585 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +301,12 @@
 			files = (
 				1259E1181D1AF9AE005B803E /* feed.storyboard in Resources */,
 				127616851D14CC8200EBCA74 /* LaunchScreen.storyboard in Resources */,
+				12806B661D1B689400163666 /* Info.plist in Resources */,
 				127616821D14CC8200EBCA74 /* Assets.xcassets in Resources */,
 				1259E11D1D1AFAA1005B803E /* settings.storyboard in Resources */,
 				1259E1131D1AF609005B803E /* productRank.storyboard in Resources */,
 				1259E11B1D1AFA43005B803E /* investments.storyboard in Resources */,
 				127616801D14CC8200EBCA74 /* Main.storyboard in Resources */,
-				1259E1161D1AF7F5005B803E /* likes.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,16 +319,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		157D73866CCC7BA04AE30EE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickPitch/Pods-QuickPitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		905E6D51AAEF52D69B61E585 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickPitch/Pods-QuickPitch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AE12B160E33E6DDC142BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		127616711D14CC8200EBCA74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12806B5F1D1B67D400163666 /* Person.swift in Sources */,
 				1246A5891D1B54DC00B583B2 /* AppDelegate.swift in Sources */,
+				12806B601D1B67D400163666 /* ChoosePersonViewController.swift in Sources */,
+				12806B611D1B67D400163666 /* ImageLabelView.swift in Sources */,
+				123145AB1D402B1E00A19632 /* vidPerson.swift in Sources */,
+				12806B621D1B67D400163666 /* ChoosePersonView.swift in Sources */,
 				1202A4831D176C9600C7E17A /* settings.swift in Sources */,
-				1202A4791D176C2100C7E17A /* likes.swift in Sources */,
 				1202A47C1D176C5F00C7E17A /* investments.swift in Sources */,
-				1202A4741D176B8400C7E17A /* feed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +402,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1259E1141D1AF7F5005B803E /* likes.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1259E1151D1AF7F5005B803E /* Base */,
-			);
-			name = likes.storyboard;
-			sourceTree = "<group>";
-		};
 		1259E1191D1AFA43005B803E /* investments.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,23 +514,27 @@
 		};
 		127616951D14CC8200EBCA74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3C7B907740BAE1C6B4B8C5 /* Pods-QuickPitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickPitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.quickpitch.QuickPitchv1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = QuickPitch/BridgingHeader.h;
 			};
 			name = Debug;
 		};
 		127616961D14CC8200EBCA74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C592FA220B03D9E0D71685A /* Pods-QuickPitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickPitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.quickpitch.QuickPitchv1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = QuickPitch/BridgingHeader.h;
 			};
 			name = Release;
 		};

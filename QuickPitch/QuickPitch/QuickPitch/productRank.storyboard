@@ -5,15 +5,21 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Top Products-->
+        <!--Search-->
         <scene sceneID="Upr-IB-L8u">
             <objects>
                 <navigationController id="O6p-hP-BEV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Top Products" image="bar-chart-3x" selectedImage="bar-chart-3x" id="vfW-gP-YZe"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifying-glass-3x" selectedImage="magnifying-glass-3x" id="vfW-gP-YZe"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="W61-aX-X9A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.20784313730000001" green="0.21176470589999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="0.98824924230575562" blue="0.98797780275344849" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="Jyd-bt-ahY" kind="relationship" relationship="rootViewController" id="ifR-UE-X4T"/>
@@ -52,6 +58,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bar-chart-3x" width="24" height="24"/>
+        <image name="magnifying-glass-3x" width="24" height="24"/>
     </resources>
+    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
