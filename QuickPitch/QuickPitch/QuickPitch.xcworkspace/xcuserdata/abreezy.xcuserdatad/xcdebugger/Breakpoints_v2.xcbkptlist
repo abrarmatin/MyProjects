@@ -25,13 +25,29 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonViewController.swift"
-            timestampString = "490844433.108244"
+            filePath = "../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonView.swift"
+            timestampString = "490857776.386745"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
-            landmarkName = "popPersonViewWithFrame(_:)"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "init(frame:person:options:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonView.swift"
+            timestampString = "490859323.151307"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "init(coder:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
