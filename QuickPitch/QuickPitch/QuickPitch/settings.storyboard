@@ -14,6 +14,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="koE-aZ-kfH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.2261975735" green="0.22852915339999999" blue="0.91452832549999996" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="1hH-HM-eGD" kind="relationship" relationship="rootViewController" id="cYn-7m-Zey"/>

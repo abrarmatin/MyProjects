@@ -10,6 +10,9 @@
 		1202A47C1D176C5F00C7E17A /* investments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202A47B1D176C5F00C7E17A /* investments.swift */; };
 		1202A4831D176C9600C7E17A /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202A4821D176C9600C7E17A /* settings.swift */; };
 		123145AB1D402B1E00A19632 /* vidPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123145AA1D402B1E00A19632 /* vidPerson.swift */; };
+		123145AD1D41A1EC00A19632 /* ETG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 123145AC1D41A1EC00A19632 /* ETG.mp4 */; };
+		123145AF1D41A33D00A19632 /* Robin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 123145AE1D41A33D00A19632 /* Robin.mp4 */; };
+		123145B21D41AB8800A19632 /* Pencil.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 123145B11D41AB8800A19632 /* Pencil.mp4 */; };
 		1246A5891D1B54DC00B583B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246A5881D1B54DC00B583B2 /* AppDelegate.swift */; };
 		1259E1131D1AF609005B803E /* productRank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E1121D1AF609005B803E /* productRank.storyboard */; };
 		1259E1181D1AF9AE005B803E /* feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E1171D1AF9AE005B803E /* feed.storyboard */; };
@@ -41,6 +44,9 @@
 		1202A47B1D176C5F00C7E17A /* investments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = investments.swift; sourceTree = "<group>"; };
 		1202A4821D176C9600C7E17A /* settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settings.swift; path = QuickPitch/settings.swift; sourceTree = "<group>"; };
 		123145AA1D402B1E00A19632 /* vidPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vidPerson.swift; sourceTree = "<group>"; };
+		123145AC1D41A1EC00A19632 /* ETG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ETG.mp4; path = ../../../Downloads/ETG.mp4; sourceTree = "<group>"; };
+		123145AE1D41A33D00A19632 /* Robin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Robin.mp4; path = ../../../Downloads/Robin.mp4; sourceTree = "<group>"; };
+		123145B11D41AB8800A19632 /* Pencil.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pencil.mp4; path = ../../../Downloads/Pencil.mp4; sourceTree = "<group>"; };
 		1246A5881D1B54DC00B583B2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/AppDelegate.swift; sourceTree = "<group>"; };
 		1259E1121D1AF609005B803E /* productRank.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = productRank.storyboard; sourceTree = "<group>"; };
 		1259E1171D1AF9AE005B803E /* feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = feed.storyboard; sourceTree = "<group>"; };
@@ -141,9 +147,20 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		123145B01D41A34400A19632 /* Video Demos */ = {
+			isa = PBXGroup;
+			children = (
+				123145B11D41AB8800A19632 /* Pencil.mp4 */,
+				123145AC1D41A1EC00A19632 /* ETG.mp4 */,
+				123145AE1D41A33D00A19632 /* Robin.mp4 */,
+			);
+			name = "Video Demos";
+			sourceTree = "<group>";
+		};
 		1276166C1D14CC8200EBCA74 = {
 			isa = PBXGroup;
 			children = (
+				123145B01D41A34400A19632 /* Video Demos */,
 				127616771D14CC8200EBCA74 /* QuickPitch */,
 				1276168E1D14CC8200EBCA74 /* QuickPitchTests */,
 				127616761D14CC8200EBCA74 /* Products */,
@@ -299,6 +316,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123145B21D41AB8800A19632 /* Pencil.mp4 in Resources */,
+				123145AF1D41A33D00A19632 /* Robin.mp4 in Resources */,
+				123145AD1D41A1EC00A19632 /* ETG.mp4 in Resources */,
 				1259E1181D1AF9AE005B803E /* feed.storyboard in Resources */,
 				127616851D14CC8200EBCA74 /* LaunchScreen.storyboard in Resources */,
 				12806B661D1B689400163666 /* Info.plist in Resources */,
