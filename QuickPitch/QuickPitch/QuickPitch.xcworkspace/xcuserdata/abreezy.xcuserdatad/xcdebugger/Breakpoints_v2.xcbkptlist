@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QuickPitch/vidPerson.swift"
-            timestampString = "490748048.201698"
+            timestampString = "490905679.64414"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "init(name:vidPerson:)"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "init(cname:pname:cost:vidPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonView.swift"
-            timestampString = "490857776.386745"
+            timestampString = "490910555.560574"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "init(frame:person:options:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonView.swift"
-            timestampString = "490859323.151307"
+            timestampString = "490910555.560574"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "init(coder:)"
             landmarkType = "5">
          </BreakpointContent>

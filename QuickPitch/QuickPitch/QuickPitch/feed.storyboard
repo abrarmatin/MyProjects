@@ -41,9 +41,34 @@
                     <view key="view" contentMode="scaleToFill" id="fPu-Pn-r5H" customClass="ChoosePersonView" customModule="QuickPitch" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="165" placeholderIntrinsicHeight="21" text="Company Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3AT-U3-s0b">
+                                <rect key="frame" x="20" y="472" width="165" height="26"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="21"/>
+                                <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="153" placeholderIntrinsicHeight="21" text="Product name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jc7-Dg-7MT">
+                                <rect key="frame" x="20" y="501" width="190" height="33.5"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="29"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="91" placeholderIntrinsicHeight="56.5" text="Cost" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrT-fu-eN7">
+                                <rect key="frame" x="265" y="478" width="121" height="56.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="FtQ-AS-YBw"/>
+                    <connections>
+                        <outlet property="companyLabel" destination="3AT-U3-s0b" id="zah-Cb-gQA"/>
+                        <outlet property="costLabel" destination="RrT-fu-eN7" id="OeS-ne-9su"/>
+                        <outlet property="productLabel" destination="jc7-Dg-7MT" id="VqR-K8-Vhv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gre-Cb-ngT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

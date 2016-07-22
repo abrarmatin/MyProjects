@@ -29,20 +29,30 @@ import UIKit
 
 class vidPerson: NSObject {
     
-    let Name: NSString
+    let companyName: NSString
+    let productName: NSString
     let vidPath: NSString
+    let cost: NSNumber
+    
+    
+    
+    //unnecessary stuff
     let Age: NSNumber
     let NumberOfSharedFriends: NSNumber?
     let NumberOfSharedInterests: NSNumber
     let NumberOfPhotos: NSNumber
     
     override var description: String {
-        return "Name: \(Name), \n Image: \(vidPath), \n Age: \(Age) \n NumberOfSharedFriends: \(NumberOfSharedFriends) \n NumberOfSharedInterests: \(NumberOfSharedInterests) \n NumberOfPhotos/: \(NumberOfPhotos)"
+        return "Name: \(companyName), \n Image: \(vidPath), \n Age: \(Age) \n NumberOfSharedFriends: \(NumberOfSharedFriends) \n NumberOfSharedInterests: \(NumberOfSharedInterests) \n NumberOfPhotos/: \(NumberOfPhotos)"
     }
     
-    init(name: NSString?, vidPerson: NSString?) {
-        self.Name = name ?? ""
-        self.vidPath = vidPerson ?? ""
+    init(cname: NSString?, pname: NSString?, cost: NSNumber?, vidPath: NSString?) {
+        self.companyName = cname ?? ""
+        self.productName = pname ?? ""
+        self.cost = cost!
+        self.vidPath = vidPath ?? ""
+        
+        //useless but has to be here
         self.Age = 0;
         self.NumberOfSharedFriends = 0;
         self.NumberOfPhotos = 0;
