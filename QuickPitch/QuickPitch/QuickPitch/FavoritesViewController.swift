@@ -12,9 +12,7 @@ import UIKit
 class FavoritesViewController: UICollectionViewController{
     
     var personController:ChoosePersonViewController!
-    //var likedNames:[NSString] = personController.likedPeople
-    var likedNames: [NSString] = []
-    
+    var items = FavList.sharedInstance
     
     
     required init?(coder aDecoder: NSCoder) {
@@ -24,7 +22,6 @@ class FavoritesViewController: UICollectionViewController{
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        
         //set logo
         let logo = UIImage(named: "QuickPitch-2s.png")
         let imageView = UIImageView(image:logo)
@@ -36,18 +33,15 @@ class FavoritesViewController: UICollectionViewController{
     
     
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return likedNames.count
+        return items.favItems.count
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as UICollectionViewCell
        
-        let Label = cell.viewWithTag(1) as! UILabel
-        Label.text = likedNames[indexPath.row] as String
-        
         
         var view = UIView()
-        let logo = UIImage(named: likedNames[indexPath.row] as String + ".png")
+        let logo = UIImage(named: items.favItems[indexPath.row] as String + ".png")
         let imageView = UIImageView(image:logo)
         view = imageView
         cell.backgroundView = view
@@ -56,9 +50,5 @@ class FavoritesViewController: UICollectionViewController{
     
     }
     
-    func setFavorites(newItem: NSString) ->Void
-    {
-        self.likedNames.insert(newItem, atIndex: likedNames.endIndex)
-    }
     
 }
