@@ -114,18 +114,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.20784313730000001" green="0.21176470589999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="dFM-Pg-JgF" kind="relationship" relationship="viewControllers" id="X3M-gG-Ptk"/>
                         <segue destination="Azm-bW-efY" kind="relationship" relationship="viewControllers" id="16d-Ss-Dz9"/>
+                        <segue destination="Bze-SE-fri" kind="relationship" relationship="viewControllers" id="FHW-uU-gp0"/>
                         <segue destination="LcM-Om-W9i" kind="relationship" relationship="viewControllers" id="llB-Xd-YeD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="286" y="1326"/>
+            <point key="canvasLocation" x="398" y="1322"/>
         </scene>
         <!--productRank-->
         <scene sceneID="Hg1-Ni-SLr">
@@ -145,7 +146,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNu-rP-SzU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="999.5" y="1334"/>
+            <point key="canvasLocation" x="1010.5" y="1272"/>
         </scene>
         <!--settings-->
         <scene sceneID="kBO-R4-kBN">
@@ -156,6 +157,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GKL-QB-bl8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="999" y="1503"/>
+        </scene>
+        <!--favorites-->
+        <scene sceneID="End-Vr-KK2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="favorites" id="Bze-SE-fri" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="alr-DM-4Dw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N0s-wE-prV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="1380"/>
         </scene>
     </scenes>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>

@@ -23,16 +23,16 @@
                                 <rect key="frame" x="100" y="28" width="401" height="528"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="QuickPitch v1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Y9-9R-OfI">
-                                        <rect key="frame" x="131" y="0.0" width="140" height="494"/>
+                                        <rect key="frame" x="131" y="0.0" width="140" height="118"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="baJ-J2-qeO">
-                                        <rect key="frame" x="189" y="504" width="24" height="24"/>
+                                        <rect key="frame" x="1" y="128" width="400" height="400"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuickPitch-2" translatesAutoresizingMaskIntoConstraints="NO" id="NSs-xB-I68">
-                                                <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="NSs-xB-I68" secondAttribute="height" multiplier="1:1" id="f6f-bR-OjF"/>
                                                 </constraints>

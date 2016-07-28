@@ -9,7 +9,7 @@
         <scene sceneID="i84-DC-97m">
             <objects>
                 <navigationController id="Rwh-qC-OcO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" image="grid-two-up-3x" id="Iqs-cl-0Qy"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="cog-3x" selectedImage="cog-3x" id="Iqs-cl-0Qy"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="koE-aZ-kfH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="1000" y="2113"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="5cU-Ug-XOA">
             <objects>
-                <viewController storyboardIdentifier="UIViewController-Bu9-Ej-pPE" id="1hH-HM-eGD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIViewController-Bu9-Ej-pPE" id="1hH-HM-eGD" customClass="SettingsViewController" customModule="QuickPitch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oQh-Fa-Ito"/>
                         <viewControllerLayoutGuide type="bottom" id="OAl-li-mIf"/>
@@ -55,7 +55,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="grid-two-up-3x" width="24" height="24"/>
+        <image name="cog-3x" width="24" height="24"/>
     </resources>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
