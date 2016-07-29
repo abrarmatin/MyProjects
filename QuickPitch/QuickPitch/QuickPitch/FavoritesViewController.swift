@@ -22,23 +22,30 @@ class FavoritesViewController: UICollectionViewController{
     
     override func viewDidLoad(){
         super.viewDidLoad()
+        //self.collectionView!.backgroundColor = UIColor .grayColor()
+        
         //set logo
         let logo = UIImage(named: "QuickPitch-2s.png")
         let imageView = UIImageView(image:logo)
         self.navigationItem.titleView = imageView
-
+        //self.myView.reloadData()
+        //viewWillAppear(true)
         
+    
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
+        self.collectionView!.reloadData()
     }
 
-    
-    
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return items.favItems.count
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as UICollectionViewCell
-       
+        
         
         var view = UIView()
         let logo = UIImage(named: items.favItems[indexPath.row] as String + ".png")
@@ -47,8 +54,10 @@ class FavoritesViewController: UICollectionViewController{
         cell.backgroundView = view
         return cell
         
-    
     }
+    
+    
+    
     
     
 }

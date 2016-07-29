@@ -22,6 +22,7 @@
 		123145C31D47F25700A19632 /* Stower.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 123145C11D47F25700A19632 /* Stower.mp4 */; };
 		123145CB1D4AA31700A19632 /* FavList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123145CA1D4AA31700A19632 /* FavList.swift */; };
 		123145CD1D4AB9AE00A19632 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123145CC1D4AB9AE00A19632 /* CustomFlowLayout.swift */; };
+		123145CF1D4C0ACA00A19632 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123145CE1D4C0ACA00A19632 /* FavoritesView.swift */; };
 		1246A5891D1B54DC00B583B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246A5881D1B54DC00B583B2 /* AppDelegate.swift */; };
 		1259E1131D1AF609005B803E /* productRank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E1121D1AF609005B803E /* productRank.storyboard */; };
 		1259E1181D1AF9AE005B803E /* feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259E1171D1AF9AE005B803E /* feed.storyboard */; };
@@ -64,6 +65,7 @@
 		123145C11D47F25700A19632 /* Stower.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Stower.mp4; path = ../../../Downloads/Stower.mp4; sourceTree = "<group>"; };
 		123145CA1D4AA31700A19632 /* FavList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavList.swift; sourceTree = "<group>"; };
 		123145CC1D4AB9AE00A19632 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		123145CE1D4C0ACA00A19632 /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		1246A5881D1B54DC00B583B2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/AppDelegate.swift; sourceTree = "<group>"; };
 		1259E1121D1AF609005B803E /* productRank.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = productRank.storyboard; sourceTree = "<group>"; };
 		1259E1171D1AF9AE005B803E /* feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = feed.storyboard; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			children = (
 				123145BB1D45D06E00A19632 /* favorites.storyboard */,
 				123145BE1D45D09F00A19632 /* FavoritesViewController.swift */,
+				123145CE1D4C0ACA00A19632 /* FavoritesView.swift */,
 				123145CC1D4AB9AE00A19632 /* CustomFlowLayout.swift */,
 				123145CA1D4AA31700A19632 /* FavList.swift */,
 			);
@@ -414,6 +417,7 @@
 			files = (
 				12806B5F1D1B67D400163666 /* Person.swift in Sources */,
 				123145CB1D4AA31700A19632 /* FavList.swift in Sources */,
+				123145CF1D4C0ACA00A19632 /* FavoritesView.swift in Sources */,
 				1246A5891D1B54DC00B583B2 /* AppDelegate.swift in Sources */,
 				12806B601D1B67D400163666 /* ChoosePersonViewController.swift in Sources */,
 				123145B81D45CEBB00A19632 /* SearchViewController.swift in Sources */,
