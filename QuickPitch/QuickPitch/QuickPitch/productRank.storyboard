@@ -38,23 +38,23 @@
                         <viewControllerLayoutGuide type="bottom" id="jbC-fY-w9f"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gnb-0S-Ciy">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e4x-Av-acL">
-                                <rect key="frame" x="0.0" y="64" width="376" height="44"/>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oYI-Hu-VKY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Jyd-bt-ahY" id="5Ds-BL-wc5"/>
+                                </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jMf-xm-xkg">
-                                <rect key="frame" x="0.0" y="108" width="376" height="443"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="zIA-cN-WlU"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="hTy-cs-IdO" id="Ss4-tx-oUc"/>
+                        <outlet property="searchDisplayController" destination="irr-GV-47s" id="wjN-DM-h8R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z02-fr-EfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -74,8 +74,17 @@
                         <outlet property="searchResultsDelegate" destination="Jyd-bt-ahY" id="Gwg-RJ-6uB"/>
                     </connections>
                 </searchDisplayController>
+                <searchDisplayController id="irr-GV-47s">
+                    <connections>
+                        <outlet property="delegate" destination="Jyd-bt-ahY" id="IJ4-Od-hsY"/>
+                        <outlet property="searchBar" destination="oYI-Hu-VKY" id="gnc-fY-2tw"/>
+                        <outlet property="searchContentsController" destination="Jyd-bt-ahY" id="obl-DB-GT9"/>
+                        <outlet property="searchResultsDataSource" destination="Jyd-bt-ahY" id="day-IG-AV9"/>
+                        <outlet property="searchResultsDelegate" destination="Jyd-bt-ahY" id="68t-gj-IQL"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1757" y="-626"/>
+            <point key="canvasLocation" x="1756.5" y="-626.5"/>
         </scene>
     </scenes>
     <resources>

@@ -15,10 +15,12 @@ class SearchViewController: UIViewController{
         super.init(coder: aDecoder)
     
     }
+    @IBOutlet weak var searchBar: UISearchBar!
     
     override func viewDidLoad(){
         super.viewDidLoad()
         
+       // searchBar.layer.backgroundColor = UIColor.blackColor().CGColor
         //set logo
         let logo = UIImage(named: "QuickPitch-2s.png")
         let imageView = UIImageView(image:logo)

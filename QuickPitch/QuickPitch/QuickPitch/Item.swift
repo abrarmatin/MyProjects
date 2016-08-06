@@ -15,20 +15,20 @@ class Item: NSObject{
     let cost: NSNumber
     let picture: UIImage
     let productText: NSString
-    
+    let link: NSURL
 
     
 //    override var description: String {
 //        return "Name: \(companyName), \n Image: \(vidPath), \n Age: \(Age) \n NumberOfSharedFriends: \(NumberOfSharedFriends) \n NumberOfSharedInterests: \(NumberOfSharedInterests) \n NumberOfPhotos/: \(NumberOfPhotos)"
 //    }
     
-    init(cname: NSString?, pname: NSString?, cost: NSNumber?, vidPath: NSString?, picture: UIImage, description: NSString?) {
+    init(cname: NSString?, pname: NSString?, cost: NSNumber?, vidPath: NSString?, picture: UIImage, description: NSString?, link: NSURL?) {
         self.companyName = cname ?? ""
         self.productName = pname ?? ""
         self.cost = cost!
         self.vidPath = vidPath ?? ""
         self.picture = picture
         self.productText = description ?? ""
-        
+        self.link = link!
     }
 }

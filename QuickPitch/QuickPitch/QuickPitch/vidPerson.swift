@@ -34,6 +34,8 @@ class vidPerson: NSObject {
     let vidPath: NSString
     let cost: NSNumber
     let picname: NSString
+    let link: NSURL
+    let productDescription: NSString
     
     
     //unnecessary stuff
@@ -46,12 +48,14 @@ class vidPerson: NSObject {
         return "Name: \(companyName), \n Image: \(vidPath), \n Age: \(Age) \n NumberOfSharedFriends: \(NumberOfSharedFriends) \n NumberOfSharedInterests: \(NumberOfSharedInterests) \n NumberOfPhotos/: \(NumberOfPhotos)"
     }
     
-    init(cname: NSString?, pname: NSString?, cost: NSNumber?, vidPath: NSString?, picname: NSString?) {
+    init(cname: NSString?, pname: NSString?, cost: NSNumber?, vidPath: NSString?, picname: NSString?, productText: NSString?, link: NSString?) {
         self.companyName = cname ?? ""
         self.productName = pname ?? ""
         self.cost = cost!
         self.vidPath = vidPath ?? ""
         self.picname = picname ?? ""
+        self.link = NSURL(string: (link as! String))!
+        self.productDescription = productText ?? ""
         
         //useless but has to be here
         self.Age = 0;

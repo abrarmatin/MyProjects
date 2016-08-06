@@ -58,11 +58,11 @@ class FavoritesViewController: UICollectionViewController, UITabBarDelegate{
         if items.favItems.count > 0
         {
             var view = UIView()
-            logo = UIImage(named: items.favItems[indexPath.row] as String + ".png")
+            logo = UIImage(named: items.favItems[indexPath.row].picname as String + ".png")
             let imageView = UIImageView(image:logo)
             view = imageView
             cell.backgroundView = view
-            newItem = Item(cname: "test1", pname: "test2", cost: 99, vidPath: "test4", picture: logo!, description: "test6")
+            newItem = Item(cname: items.favItems[indexPath.row].companyName, pname: items.favItems[indexPath.row].productName, cost: items.favItems[indexPath.row].cost, vidPath: items.favItems[indexPath.row].vidPath, picture: logo!, description: "test6", link: items.favItems[indexPath.row].link)
 
             //itemPressed(cell)
             //globalLogo = logo
@@ -80,10 +80,12 @@ class FavoritesViewController: UICollectionViewController, UITabBarDelegate{
         {
             print("made it into if")
             let indexPath = indexPaths[0] as NSIndexPath
-            let logo = UIImage(named: items.favItems[indexPath.row] as String + ".png")
+            let logo = UIImage(named: items.favItems[indexPath.row].picname as String + ".png")
             itemVC = segue.destinationViewController as? ItemViewController
-            itemVC?.currentItem = Item(cname: "test1", pname: "test2", cost: 99, vidPath: "test4", picture: logo!, description: "test6")
+            itemVC?.currentItem = Item(cname: items.favItems[indexPath.row].companyName, pname: items.favItems[indexPath.row].productName, cost: items.favItems[indexPath.row].cost, vidPath: items.favItems[indexPath.row].vidPath, picture: logo!, description: items.favItems[indexPath.row].productDescription, link: items.favItems[indexPath.row].link)
         }
+        
+        
         
     }
     

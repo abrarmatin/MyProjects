@@ -585,9 +585,10 @@
 			baseConfigurationReference = AF3C7B907740BAE1C6B4B8C5 /* Pods-QuickPitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QuickPitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.quickpitch.QuickPitchv1;
+				PRODUCT_BUNDLE_IDENTIFIER = QuickPitch.QuickPitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = QuickPitch/BridgingHeader.h;
 			};
@@ -598,9 +599,10 @@
 			baseConfigurationReference = 9C592FA220B03D9E0D71685A /* Pods-QuickPitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QuickPitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.quickpitch.QuickPitchv1;
+				PRODUCT_BUNDLE_IDENTIFIER = QuickPitch.QuickPitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = QuickPitch/BridgingHeader.h;
 			};

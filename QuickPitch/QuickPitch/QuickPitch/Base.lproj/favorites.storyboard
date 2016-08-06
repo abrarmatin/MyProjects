@@ -75,23 +75,91 @@
                         <viewControllerLayoutGuide type="bottom" id="b1Q-Kw-wu1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aBu-Qd-ppV" customClass="ItemView" customModule="QuickPitch" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D9k-d0-tPg">
-                                <rect key="frame" x="62" y="72" width="128" height="128"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j0v-3s-xCd">
+                                <rect key="frame" x="10" y="72" width="400" height="1075"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D9k-d0-tPg">
+                                        <rect key="frame" x="111" y="0.0" width="128" height="128"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SlO-ZS-yXZ">
+                                        <rect key="frame" x="14" y="573" width="323" height="165"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1XW-zI-QY2">
+                                        <rect key="frame" x="14" y="186" width="323" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MrA-Os-soi">
+                                        <rect key="frame" x="14" y="338" width="323" height="188"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6k2-qz-Z4X">
+                                        <rect key="frame" x="14" y="162" width="323" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oG-Fv-eG0">
+                                        <rect key="frame" x="14" y="338" width="323" height="188"/>
+                                        <connections>
+                                            <action selector="vidClicked:" destination="CfS-gr-ytL" eventType="touchUpInside" id="K5l-OR-8v6"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cost" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6t-9I-ZUa">
+                                        <rect key="frame" x="111" y="241" width="128" height="46"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                        <color key="textColor" red="0.2473379634" green="0.24988745239999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WwX-4R-3IA">
+                                        <rect key="frame" x="80" y="798" width="191" height="40"/>
+                                        <color key="backgroundColor" red="0.2473379634" green="0.24988745239999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Buy on Amazon">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buyNow:" destination="CfS-gr-ytL" eventType="touchUpInside" id="53M-UZ-erf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="69n-ov-7Vx"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="69n-ov-7Vx">
+                        <barButtonItem key="rightBarButtonItem" title="Share" id="1bZ-T8-BlD">
+                            <connections>
+                                <action selector="shareButton:" destination="CfS-gr-ytL" id="UNX-go-M6f"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="1200"/>
                     <connections>
+                        <outlet property="buyNowButton" destination="WwX-4R-3IA" id="pNn-ht-nb3"/>
+                        <outlet property="companyLabel" destination="6k2-qz-Z4X" id="umw-bz-oDN"/>
+                        <outlet property="costLabel" destination="v6t-9I-ZUa" id="IRc-Kw-ZO2"/>
                         <outlet property="imagePic" destination="D9k-d0-tPg" id="CNn-4s-gXl"/>
+                        <outlet property="productLabel" destination="1XW-zI-QY2" id="LyF-a7-Seb"/>
+                        <outlet property="productTextView" destination="SlO-ZS-yXZ" id="H1F-3T-7gM"/>
+                        <outlet property="scroller" destination="j0v-3s-xCd" id="PzE-u8-Z4W"/>
+                        <outlet property="videoView" destination="MrA-Os-soi" id="ZG4-6Y-DTe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j4Z-bx-tgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2862" y="1378"/>
+            <point key="canvasLocation" x="2884" y="1293"/>
         </scene>
     </scenes>
     <resources>

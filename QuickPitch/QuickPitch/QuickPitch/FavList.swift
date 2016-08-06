@@ -22,5 +22,5 @@ class FavList {
         return Static.instance!
     }
     
-    var favItems: [NSString] = []
+    var favItems: [vidPerson] = []
 }
