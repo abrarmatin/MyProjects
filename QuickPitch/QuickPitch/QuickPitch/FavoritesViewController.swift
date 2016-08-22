@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+//import FBSDKLoginKit
 
 //var globalLogo = UIImage(named: "QuickPitch-2s.png")
 
@@ -31,6 +32,12 @@ class FavoritesViewController: UICollectionViewController, UITabBarDelegate{
     override func viewDidLoad(){
         super.viewDidLoad()
         //self.collectionView!.backgroundColor = UIColor .grayColor()
+        
+        //******TESTING***********
+//        let loginButton = FBSDKLoginButton()
+//        loginButton.center = view.center
+//        view.addSubview(loginButton)
+        //***********************
         
         //set logo
         let logo = UIImage(named: "QuickPitch-2s.png")
@@ -99,5 +106,13 @@ class FavoritesViewController: UICollectionViewController, UITabBarDelegate{
     
     }
     
+    //force portrait
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
     
 }

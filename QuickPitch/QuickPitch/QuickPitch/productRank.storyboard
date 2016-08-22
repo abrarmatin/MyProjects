@@ -53,9 +53,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="zIA-cN-WlU"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="irr-GV-47s" id="wjN-DM-h8R"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z02-fr-EfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <searchDisplayController id="6rf-GZ-igI">

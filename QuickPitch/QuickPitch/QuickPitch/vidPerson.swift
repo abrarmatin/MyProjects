@@ -36,6 +36,7 @@ class vidPerson: NSObject {
     let picname: NSString
     let link: NSURL
     let productDescription: NSString
+    let keyWords: [NSString]
     
     
     //unnecessary stuff
@@ -48,7 +49,7 @@ class vidPerson: NSObject {
         return "Name: \(companyName), \n Image: \(vidPath), \n Age: \(Age) \n NumberOfSharedFriends: \(NumberOfSharedFriends) \n NumberOfSharedInterests: \(NumberOfSharedInterests) \n NumberOfPhotos/: \(NumberOfPhotos)"
     }
     
-    init(cname: NSString?, pname: NSString?, cost: NSNumber?, vidPath: NSString?, picname: NSString?, productText: NSString?, link: NSString?) {
+    init(cname: NSString?, pname: NSString?, cost: NSNumber?, vidPath: NSString?, picname: NSString?, productText: NSString?, keyWords: [NSString]?, link: NSString?) {
         self.companyName = cname ?? ""
         self.productName = pname ?? ""
         self.cost = cost!
@@ -56,6 +57,7 @@ class vidPerson: NSObject {
         self.picname = picname ?? ""
         self.link = NSURL(string: (link as! String))!
         self.productDescription = productText ?? ""
+        self.keyWords = keyWords!
         
         //useless but has to be here
         self.Age = 0;
@@ -63,4 +65,20 @@ class vidPerson: NSObject {
         self.NumberOfPhotos = 0;
         self.NumberOfSharedInterests = 0;
     }
+    
+    func getKeyWords() -> [NSString]
+    {
+        return keyWords
+    }
+    
+//    func getVidPerson(keyWord: NSString) -> vidPerson
+//    {
+//        for word in self.keyWords
+//        {
+//            if word == keyWord
+//            {
+//                return self
+//            }
+//        }
+//    }
 }

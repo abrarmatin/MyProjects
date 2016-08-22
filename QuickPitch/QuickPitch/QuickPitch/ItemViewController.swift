@@ -26,12 +26,13 @@ class ItemViewController: UIViewController{
     @IBAction func shareButton(myItem: Item) {
         shareLink((currentItem?.link)!)
     }
-
     @IBOutlet weak var buyNowButton: UIButton!
     @IBAction func buyNow(sender: AnyObject) {
         UIApplication.sharedApplication().openURL((currentItem?.link)!)
     }
     
+    //video controller
+    var playerController = AVPlayerViewController()
     
     
     required init?(coder aDecoder: NSCoder) {
@@ -59,8 +60,12 @@ class ItemViewController: UIViewController{
         productLabel.text = currentItem?.productName as! String
         productTextView.text = currentItem?.productText as! String
         costLabel.text = "$" + (currentItem?.cost.stringValue)!
+        
+        //video controls
+        playerController.showsPlaybackControls = true
         self.videoURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(currentItem?.vidPath as! String, ofType: "mp4")!)
         self.player = AVPlayer(URL: videoURL!)
+        playerController.player = self.player
         constructItemVid()
         isPlaying = false
         
@@ -80,18 +85,22 @@ class ItemViewController: UIViewController{
     }
     
     func constructItemVid() -> Void{
+        
         videoView.layer.borderColor = UIColor.blackColor().CGColor
         videoView.layer.borderWidth = 2.5;
         videoView.layer.cornerRadius = 5.0;
         videoView.backgroundColor = UIColor.blackColor()
         
         //let videoURL = NSURL(string: person.vidPath as String)
-        let playerLayer = AVPlayerLayer(player: player)
+        let playerLayer = AVPlayerLayer(player: playerController.player)
         playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
         playerLayer.frame = videoView.bounds
+        playerController.view.frame = videoView.bounds
         
         //self.titleLabel.text = "paused"
-        videoView.layer.addSublayer(playerLayer)
+        //videoView.layer.addSublayer(playerLayer)
+        
+        videoView.addSubview(playerController.view)
         //playVid()
         player!.pause()
     }
@@ -124,5 +133,14 @@ class ItemViewController: UIViewController{
         return UIStoryboard(name: "favorites", bundle: nil).instantiateViewControllerWithIdentifier("ItemViewController") as! ItemViewController
     }
     
+    //force portrait
+    
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
    
 }

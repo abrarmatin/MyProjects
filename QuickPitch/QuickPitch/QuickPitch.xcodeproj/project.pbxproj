@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1202A4831D176C9600C7E17A /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202A4821D176C9600C7E17A /* settings.swift */; };
+		12248A121D66473400049329 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12248A111D66473400049329 /* AWSCognito.framework */; };
+		12248A171D66487800049329 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12248A161D66487800049329 /* AWSCognito.framework */; };
+		12248A181D66487800049329 /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12248A161D66487800049329 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		123145AB1D402B1E00A19632 /* vidPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123145AA1D402B1E00A19632 /* vidPerson.swift */; };
 		123145AD1D41A1EC00A19632 /* ETG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 123145AC1D41A1EC00A19632 /* ETG.mp4 */; };
 		123145AF1D41A33D00A19632 /* Robin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 123145AE1D41A33D00A19632 /* Robin.mp4 */; };
@@ -34,11 +37,53 @@
 		127616821D14CC8200EBCA74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127616811D14CC8200EBCA74 /* Assets.xcassets */; };
 		127616851D14CC8200EBCA74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127616831D14CC8200EBCA74 /* LaunchScreen.storyboard */; };
 		127616901D14CC8200EBCA74 /* QuickPitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276168F1D14CC8200EBCA74 /* QuickPitchTests.swift */; };
+		127DB4DB1D62F764008F9420 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127DB4D81D62F764008F9420 /* FBSDKShareKit.framework */; };
+		127DB4DC1D62F764008F9420 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127DB4D91D62F764008F9420 /* FBSDKCoreKit.framework */; };
+		127DB4DD1D62F764008F9420 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127DB4DA1D62F764008F9420 /* FBSDKLoginKit.framework */; };
 		12806B5F1D1B67D400163666 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12806B5B1D1B67D400163666 /* Person.swift */; };
 		12806B601D1B67D400163666 /* ChoosePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12806B5C1D1B67D400163666 /* ChoosePersonViewController.swift */; };
 		12806B611D1B67D400163666 /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12806B5D1D1B67D400163666 /* ImageLabelView.swift */; };
 		12806B621D1B67D400163666 /* ChoosePersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12806B5E1D1B67D400163666 /* ChoosePersonView.swift */; };
 		12806B661D1B689400163666 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12806B641D1B689400163666 /* Info.plist */; };
+		1281F42F1D615CA9007AEE63 /* tabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281F42E1D615CA9007AEE63 /* tabBarController.swift */; };
+		12C7FAC61D62E9E400F94443 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 127616911D14CC8200EBCA74 /* Info.plist */; };
+		12C7FAC81D62EFCC00F94443 /* libMDCSwipeToChoose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C7FAC71D62EFCC00F94443 /* libMDCSwipeToChoose.a */; };
+		12EF10C31D63B6CE000E650C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10C21D63B6CE000E650C /* Bolts.framework */; };
+		12EF10C51D63C03E000E650C /* fbTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF10C41D63C03E000E650C /* fbTestView.swift */; };
+		12EF10D91D63D19B000E650C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10CD1D63D19B000E650C /* FBSDKCoreKit.framework */; };
+		12EF10DA1D63D19B000E650C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10CE1D63D19B000E650C /* FBSDKLoginKit.framework */; };
+		12EF10DB1D63D19B000E650C /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10D01D63D19B000E650C /* GoogleAppUtilities.framework */; };
+		12EF10DC1D63D19B000E650C /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10D11D63D19B000E650C /* GoogleAuthUtilities.framework */; };
+		12EF10DD1D63D19B000E650C /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10D21D63D19B000E650C /* GoogleNetworkingUtilities.framework */; };
+		12EF10DE1D63D19B000E650C /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10D31D63D19B000E650C /* GoogleSymbolUtilities.framework */; };
+		12EF10DF1D63D19B000E650C /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10D41D63D19B000E650C /* GoogleUtilities.framework */; };
+		12EF10ED1D64DCDF000E650C /* AWSMobileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF10EB1D64DCDF000E650C /* AWSMobileClient.swift */; };
+		12EF10EE1D64DCDF000E650C /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10EC1D64DCDF000E650C /* AWSMobileHubHelper.framework */; };
+		12EF10F01D64DE6C000E650C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10EF1D64DE6C000E650C /* libsqlite3.tbd */; };
+		12EF10F21D64DE7A000E650C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10F11D64DE7A000E650C /* libz.tbd */; };
+		12EF10F41D64E12D000E650C /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10F31D64E12D000E650C /* AWSCore.framework */; };
+		12EF10F51D64E12D000E650C /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10F31D64E12D000E650C /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		12EF10F71D64E196000E650C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF10F61D64E196000E650C /* AddressBook.framework */; };
+		12EF10FD1D657911000E650C /* AWSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF10FC1D657911000E650C /* AWSLoginViewController.swift */; };
+		12EF11061D657DBD000E650C /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EF11041D657DBD000E650C /* SignIn.storyboard */; };
+		12EF11071D657DBD000E650C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF11051D657DBD000E650C /* SignInViewController.swift */; };
+		12EF11091D657DC9000E650C /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF11081D657DC9000E650C /* UtilityFunctions.swift */; };
+		12EF111C1D66428B000E650C /* ContentDelivery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EF110C1D66428B000E650C /* ContentDelivery.storyboard */; };
+		12EF111D1D66428B000E650C /* ContentDeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF110D1D66428B000E650C /* ContentDeliveryViewController.swift */; };
+		12EF111E1D66428B000E650C /* DemoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF110E1D66428B000E650C /* DemoFeature.swift */; };
+		12EF111F1D66428B000E650C /* UserDataStorage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EF11101D66428B000E650C /* UserDataStorage.storyboard */; };
+		12EF11201D66428B000E650C /* UserDataStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF11111D66428B000E650C /* UserDataStorageViewController.swift */; };
+		12EF11211D66428B000E650C /* UserFiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EF11131D66428B000E650C /* UserFiles.storyboard */; };
+		12EF11221D66428B000E650C /* UserFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF11141D66428B000E650C /* UserFilesViewController.swift */; };
+		12EF11231D66428B000E650C /* UserIdentity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EF11161D66428B000E650C /* UserIdentity.storyboard */; };
+		12EF11241D66428B000E650C /* UserIdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF11171D66428B000E650C /* UserIdentityViewController.swift */; };
+		12EF11251D66428B000E650C /* ColorThemeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF11191D66428B000E650C /* ColorThemeSettings.swift */; };
+		12EF11261D66428B000E650C /* UserSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EF111A1D66428B000E650C /* UserSettings.storyboard */; };
+		12EF11271D66428B000E650C /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF111B1D66428B000E650C /* UserSettingsViewController.swift */; };
+		12EF11291D66447A000E650C /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF11281D66447A000E650C /* AWSS3.framework */; };
+		12EF112A1D66447A000E650C /* AWSS3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12EF11281D66447A000E650C /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		12EF112F1D6644E0000E650C /* Amazon_Software_License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 12EF112C1D6644E0000E650C /* Amazon_Software_License.txt */; };
+		12EF11311D6644E0000E650C /* NOTICE in Resources */ = {isa = PBXBuildFile; fileRef = 12EF112E1D6644E0000E650C /* NOTICE */; };
 		F8CDFD04DAC5CEFE8826D484 /* libPods-QuickPitch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3473D317FF05ED73C0A1471F /* libPods-QuickPitch.a */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +97,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		12EF10E81D63D282000E650C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				12248A181D66487800049329 /* AWSCognito.framework in Embed Frameworks */,
+				12EF112A1D66447A000E650C /* AWSS3.framework in Embed Frameworks */,
+				12EF10F51D64E12D000E650C /* AWSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1202A4821D176C9600C7E17A /* settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settings.swift; path = QuickPitch/settings.swift; sourceTree = "<group>"; };
+		12248A111D66473400049329 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognito.framework; sourceTree = "<group>"; };
+		12248A131D66484600049329 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = "../../../Downloads/QuickPitch-aws-my-sample-app-ios-swift-3/MySampleApp/MySampleApp/Sdk/Aws/extras/AWSCognito.framework"; sourceTree = "<group>"; };
+		12248A161D66487800049329 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognito.framework; sourceTree = "<group>"; };
 		123145AA1D402B1E00A19632 /* vidPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vidPerson.swift; sourceTree = "<group>"; };
 		123145AC1D41A1EC00A19632 /* ETG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ETG.mp4; path = ../../../Downloads/ETG.mp4; sourceTree = "<group>"; };
 		123145AE1D41A33D00A19632 /* Robin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Robin.mp4; path = ../../../Downloads/Robin.mp4; sourceTree = "<group>"; };
@@ -84,12 +148,51 @@
 		1276168B1D14CC8200EBCA74 /* QuickPitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickPitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1276168F1D14CC8200EBCA74 /* QuickPitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPitchTests.swift; sourceTree = "<group>"; };
 		127616911D14CC8200EBCA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127DB4D81D62F764008F9420 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		127DB4D91D62F764008F9420 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		127DB4DA1D62F764008F9420 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		12806B5B1D1B67D400163666 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/Person.swift; sourceTree = "<group>"; };
 		12806B5C1D1B67D400163666 /* ChoosePersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoosePersonViewController.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonViewController.swift; sourceTree = "<group>"; };
 		12806B5D1D1B67D400163666 /* ImageLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLabelView.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ImageLabelView.swift; sourceTree = "<group>"; };
 		12806B5E1D1B67D400163666 /* ChoosePersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChoosePersonView.swift; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/ChoosePersonView.swift; sourceTree = "<group>"; };
 		12806B631D1B684200163666 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BridgingHeader.h; path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope/BridgingHeader.h; sourceTree = "<group>"; };
 		12806B641D1B689400163666 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1281F42E1D615CA9007AEE63 /* tabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabBarController.swift; sourceTree = "<group>"; };
+		12C7FAC71D62EFCC00F94443 /* libMDCSwipeToChoose.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMDCSwipeToChoose.a; path = "../../../Library/Developer/Xcode/DerivedData/QuickPitch-cyohzimdbdhjodffdcxmazwzwonh/Build/Products/Debug-iphonesimulator/MDCSwipeToChoose/libMDCSwipeToChoose.a"; sourceTree = "<group>"; };
+		12EF10C21D63B6CE000E650C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-4/Bolts.framework"; sourceTree = "<group>"; };
+		12EF10C41D63C03E000E650C /* fbTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fbTestView.swift; path = ../fbTestView.swift; sourceTree = "<group>"; };
+		12EF10CD1D63D19B000E650C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		12EF10CE1D63D19B000E650C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		12EF10D01D63D19B000E650C /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		12EF10D11D63D19B000E650C /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		12EF10D21D63D19B000E650C /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		12EF10D31D63D19B000E650C /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		12EF10D41D63D19B000E650C /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		12EF10EB1D64DCDF000E650C /* AWSMobileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSMobileClient.swift; sourceTree = "<group>"; };
+		12EF10EC1D64DCDF000E650C /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSMobileHubHelper.framework; sourceTree = "<group>"; };
+		12EF10EF1D64DE6C000E650C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		12EF10F11D64DE7A000E650C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		12EF10F31D64E12D000E650C /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCore.framework; sourceTree = "<group>"; };
+		12EF10F61D64E196000E650C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		12EF10FC1D657911000E650C /* AWSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AWSLoginViewController.swift; path = ../AWSLoginViewController.swift; sourceTree = "<group>"; };
+		12EF11041D657DBD000E650C /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SignIn.storyboard; path = ../SignIn.storyboard; sourceTree = "<group>"; };
+		12EF11051D657DBD000E650C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
+		12EF11081D657DC9000E650C /* UtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UtilityFunctions.swift; path = ../UtilityFunctions.swift; sourceTree = "<group>"; };
+		12EF110C1D66428B000E650C /* ContentDelivery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContentDelivery.storyboard; sourceTree = "<group>"; };
+		12EF110D1D66428B000E650C /* ContentDeliveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDeliveryViewController.swift; sourceTree = "<group>"; };
+		12EF110E1D66428B000E650C /* DemoFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoFeature.swift; sourceTree = "<group>"; };
+		12EF11101D66428B000E650C /* UserDataStorage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserDataStorage.storyboard; sourceTree = "<group>"; };
+		12EF11111D66428B000E650C /* UserDataStorageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataStorageViewController.swift; sourceTree = "<group>"; };
+		12EF11131D66428B000E650C /* UserFiles.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserFiles.storyboard; sourceTree = "<group>"; };
+		12EF11141D66428B000E650C /* UserFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFilesViewController.swift; sourceTree = "<group>"; };
+		12EF11161D66428B000E650C /* UserIdentity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserIdentity.storyboard; sourceTree = "<group>"; };
+		12EF11171D66428B000E650C /* UserIdentityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserIdentityViewController.swift; sourceTree = "<group>"; };
+		12EF11191D66428B000E650C /* ColorThemeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorThemeSettings.swift; sourceTree = "<group>"; };
+		12EF111A1D66428B000E650C /* UserSettings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserSettings.storyboard; sourceTree = "<group>"; };
+		12EF111B1D66428B000E650C /* UserSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
+		12EF11281D66447A000E650C /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = Aws/AWSS3.framework; sourceTree = "<group>"; };
+		12EF112C1D6644E0000E650C /* Amazon_Software_License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Amazon_Software_License.txt; path = extras/Amazon_Software_License.txt; sourceTree = "<group>"; };
+		12EF112E1D6644E0000E650C /* NOTICE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NOTICE; path = extras/NOTICE; sourceTree = "<group>"; };
 		3473D317FF05ED73C0A1471F /* libPods-QuickPitch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickPitch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C592FA220B03D9E0D71685A /* Pods-QuickPitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickPitch/Pods-QuickPitch.release.xcconfig"; sourceTree = "<group>"; };
 		AF3C7B907740BAE1C6B4B8C5 /* Pods-QuickPitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickPitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickPitch/Pods-QuickPitch.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +203,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EF10F71D64E196000E650C /* AddressBook.framework in Frameworks */,
+				12EF10F21D64DE7A000E650C /* libz.tbd in Frameworks */,
+				12EF10F01D64DE6C000E650C /* libsqlite3.tbd in Frameworks */,
+				12EF10F41D64E12D000E650C /* AWSCore.framework in Frameworks */,
+				12C7FAC81D62EFCC00F94443 /* libMDCSwipeToChoose.a in Frameworks */,
+				12EF10DA1D63D19B000E650C /* FBSDKLoginKit.framework in Frameworks */,
+				12248A171D66487800049329 /* AWSCognito.framework in Frameworks */,
+				12248A121D66473400049329 /* AWSCognito.framework in Frameworks */,
+				12EF10DC1D63D19B000E650C /* GoogleAuthUtilities.framework in Frameworks */,
+				12EF10DE1D63D19B000E650C /* GoogleSymbolUtilities.framework in Frameworks */,
+				12EF10EE1D64DCDF000E650C /* AWSMobileHubHelper.framework in Frameworks */,
+				12EF10DD1D63D19B000E650C /* GoogleNetworkingUtilities.framework in Frameworks */,
+				12EF10DF1D63D19B000E650C /* GoogleUtilities.framework in Frameworks */,
+				127DB4DC1D62F764008F9420 /* FBSDKCoreKit.framework in Frameworks */,
+				127DB4DD1D62F764008F9420 /* FBSDKLoginKit.framework in Frameworks */,
+				12EF10C31D63B6CE000E650C /* Bolts.framework in Frameworks */,
+				12EF11291D66447A000E650C /* AWSS3.framework in Frameworks */,
+				12EF10DB1D63D19B000E650C /* GoogleAppUtilities.framework in Frameworks */,
+				12EF10D91D63D19B000E650C /* FBSDKCoreKit.framework in Frameworks */,
 				F8CDFD04DAC5CEFE8826D484 /* libPods-QuickPitch.a in Frameworks */,
+				127DB4DB1D62F764008F9420 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +249,10 @@
 		1202A46E1D176B1500C7E17A /* MAIN */ = {
 			isa = PBXGroup;
 			children = (
+				12EF110A1D66428B000E650C /* AWSDemo */,
 				1246A5881D1B54DC00B583B2 /* AppDelegate.swift */,
 				1276167E1D14CC8200EBCA74 /* Main.storyboard */,
+				1281F42E1D615CA9007AEE63 /* tabBarController.swift */,
 			);
 			name = MAIN;
 			sourceTree = "<group>";
@@ -197,6 +322,8 @@
 		1276166C1D14CC8200EBCA74 = {
 			isa = PBXGroup;
 			children = (
+				12EF112C1D6644E0000E650C /* Amazon_Software_License.txt */,
+				12EF112E1D6644E0000E650C /* NOTICE */,
 				123145B01D41A34400A19632 /* Video Demos */,
 				127616771D14CC8200EBCA74 /* QuickPitch */,
 				1276168E1D14CC8200EBCA74 /* QuickPitchTests */,
@@ -249,9 +376,120 @@
 			path = ../../../../Documents/sampleProjects/MDCSwipeToChoose/Examples/SwiftLikedOrNope/SwiftLikedOrNope;
 			sourceTree = "<group>";
 		};
+		12EF10CC1D63D19B000E650C /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				12EF10CD1D63D19B000E650C /* FBSDKCoreKit.framework */,
+				12EF10CE1D63D19B000E650C /* FBSDKLoginKit.framework */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		12EF10CF1D63D19B000E650C /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				12EF10D01D63D19B000E650C /* GoogleAppUtilities.framework */,
+				12EF10D11D63D19B000E650C /* GoogleAuthUtilities.framework */,
+				12EF10D21D63D19B000E650C /* GoogleNetworkingUtilities.framework */,
+				12EF10D31D63D19B000E650C /* GoogleSymbolUtilities.framework */,
+				12EF10D41D63D19B000E650C /* GoogleUtilities.framework */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		12EF10EA1D64DCDF000E650C /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				12EF10EB1D64DCDF000E650C /* AWSMobileClient.swift */,
+				12EF10EC1D64DCDF000E650C /* AWSMobileHubHelper.framework */,
+			);
+			path = AmazonAws;
+			sourceTree = "<group>";
+		};
+		12EF110A1D66428B000E650C /* AWSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				12EF11081D657DC9000E650C /* UtilityFunctions.swift */,
+				12EF11041D657DBD000E650C /* SignIn.storyboard */,
+				12EF11051D657DBD000E650C /* SignInViewController.swift */,
+				12EF10C41D63C03E000E650C /* fbTestView.swift */,
+				12EF10FC1D657911000E650C /* AWSLoginViewController.swift */,
+				12EF110B1D66428B000E650C /* ContentDelivery */,
+				12EF110E1D66428B000E650C /* DemoFeature.swift */,
+				12EF110F1D66428B000E650C /* UserDataStorage */,
+				12EF11121D66428B000E650C /* UserFiles */,
+				12EF11151D66428B000E650C /* UserIdentity */,
+				12EF11181D66428B000E650C /* UserSettings */,
+			);
+			name = AWSDemo;
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		12EF110B1D66428B000E650C /* ContentDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				12EF110C1D66428B000E650C /* ContentDelivery.storyboard */,
+				12EF110D1D66428B000E650C /* ContentDeliveryViewController.swift */,
+			);
+			path = ContentDelivery;
+			sourceTree = "<group>";
+		};
+		12EF110F1D66428B000E650C /* UserDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				12EF11101D66428B000E650C /* UserDataStorage.storyboard */,
+				12EF11111D66428B000E650C /* UserDataStorageViewController.swift */,
+			);
+			path = UserDataStorage;
+			sourceTree = "<group>";
+		};
+		12EF11121D66428B000E650C /* UserFiles */ = {
+			isa = PBXGroup;
+			children = (
+				12EF11131D66428B000E650C /* UserFiles.storyboard */,
+				12EF11141D66428B000E650C /* UserFilesViewController.swift */,
+			);
+			path = UserFiles;
+			sourceTree = "<group>";
+		};
+		12EF11151D66428B000E650C /* UserIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				12EF11161D66428B000E650C /* UserIdentity.storyboard */,
+				12EF11171D66428B000E650C /* UserIdentityViewController.swift */,
+			);
+			path = UserIdentity;
+			sourceTree = "<group>";
+		};
+		12EF11181D66428B000E650C /* UserSettings */ = {
+			isa = PBXGroup;
+			children = (
+				12EF11191D66428B000E650C /* ColorThemeSettings.swift */,
+				12EF111A1D66428B000E650C /* UserSettings.storyboard */,
+				12EF111B1D66428B000E650C /* UserSettingsViewController.swift */,
+			);
+			path = UserSettings;
+			sourceTree = "<group>";
+		};
 		4320DF49734A003AE0AEF2BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				12248A161D66487800049329 /* AWSCognito.framework */,
+				12248A131D66484600049329 /* AWSCognito.framework */,
+				12EF10CF1D63D19B000E650C /* Google */,
+				12EF10EA1D64DCDF000E650C /* AmazonAws */,
+				12EF10CC1D63D19B000E650C /* Facebook */,
+				12248A111D66473400049329 /* AWSCognito.framework */,
+				12EF11281D66447A000E650C /* AWSS3.framework */,
+				12EF10F31D64E12D000E650C /* AWSCore.framework */,
+				12EF10F61D64E196000E650C /* AddressBook.framework */,
+				12EF10F11D64DE7A000E650C /* libz.tbd */,
+				12EF10EF1D64DE6C000E650C /* libsqlite3.tbd */,
+				12EF10C21D63B6CE000E650C /* Bolts.framework */,
+				127DB4D81D62F764008F9420 /* FBSDKShareKit.framework */,
+				127DB4D91D62F764008F9420 /* FBSDKCoreKit.framework */,
+				127DB4DA1D62F764008F9420 /* FBSDKLoginKit.framework */,
+				12C7FAC71D62EFCC00F94443 /* libMDCSwipeToChoose.a */,
 				3473D317FF05ED73C0A1471F /* libPods-QuickPitch.a */,
 			);
 			name = Frameworks;
@@ -279,6 +517,8 @@
 				127616731D14CC8200EBCA74 /* Resources */,
 				157D73866CCC7BA04AE30EE4 /* [CP] Embed Pods Frameworks */,
 				905E6D51AAEF52D69B61E585 /* [CP] Copy Pods Resources */,
+				12EF10E81D63D282000E650C /* Embed Frameworks */,
+				12EF10E91D64DC72000E650C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -352,20 +592,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C7FAC61D62E9E400F94443 /* Info.plist in Resources */,
 				123145C21D47F25700A19632 /* Eero.mp4 in Resources */,
+				12EF11211D66428B000E650C /* UserFiles.storyboard in Resources */,
+				12EF111F1D66428B000E650C /* UserDataStorage.storyboard in Resources */,
+				12EF11231D66428B000E650C /* UserIdentity.storyboard in Resources */,
 				123145C31D47F25700A19632 /* Stower.mp4 in Resources */,
+				12EF11061D657DBD000E650C /* SignIn.storyboard in Resources */,
 				123145B61D41FD1F00A19632 /* Moov.mp4 in Resources */,
+				12EF11311D6644E0000E650C /* NOTICE in Resources */,
 				123145B41D41FC0600A19632 /* Earhoox.mp4 in Resources */,
 				123145B21D41AB8800A19632 /* Pencil.mp4 in Resources */,
 				123145AF1D41A33D00A19632 /* Robin.mp4 in Resources */,
 				123145AD1D41A1EC00A19632 /* ETG.mp4 in Resources */,
 				1259E1181D1AF9AE005B803E /* feed.storyboard in Resources */,
+				12EF11261D66428B000E650C /* UserSettings.storyboard in Resources */,
 				127616851D14CC8200EBCA74 /* LaunchScreen.storyboard in Resources */,
 				12806B661D1B689400163666 /* Info.plist in Resources */,
+				12EF111C1D66428B000E650C /* ContentDelivery.storyboard in Resources */,
 				123145BD1D45D06E00A19632 /* favorites.storyboard in Resources */,
 				127616821D14CC8200EBCA74 /* Assets.xcassets in Resources */,
 				1259E11D1D1AFAA1005B803E /* settings.storyboard in Resources */,
 				1259E1131D1AF609005B803E /* productRank.storyboard in Resources */,
+				12EF112F1D6644E0000E650C /* Amazon_Software_License.txt in Resources */,
 				127616801D14CC8200EBCA74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +629,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		12EF10E91D64DC72000E650C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh";
+			shellScript = "";
+		};
 		157D73866CCC7BA04AE30EE4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -432,22 +694,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EF10C51D63C03E000E650C /* fbTestView.swift in Sources */,
 				12806B5F1D1B67D400163666 /* Person.swift in Sources */,
+				1281F42F1D615CA9007AEE63 /* tabBarController.swift in Sources */,
 				123145CB1D4AA31700A19632 /* FavList.swift in Sources */,
 				123145CF1D4C0ACA00A19632 /* FavoritesView.swift in Sources */,
+				12EF11271D66428B000E650C /* UserSettingsViewController.swift in Sources */,
 				1246A5891D1B54DC00B583B2 /* AppDelegate.swift in Sources */,
+				12EF11091D657DC9000E650C /* UtilityFunctions.swift in Sources */,
+				12EF10ED1D64DCDF000E650C /* AWSMobileClient.swift in Sources */,
 				123145DA1D51C2DB00A19632 /* Item.swift in Sources */,
+				12EF11241D66428B000E650C /* UserIdentityViewController.swift in Sources */,
 				12806B601D1B67D400163666 /* ChoosePersonViewController.swift in Sources */,
 				123145B81D45CEBB00A19632 /* SearchViewController.swift in Sources */,
 				12806B611D1B67D400163666 /* ImageLabelView.swift in Sources */,
 				123145D21D5130FF00A19632 /* ItemViewController.swift in Sources */,
+				12EF11251D66428B000E650C /* ColorThemeSettings.swift in Sources */,
 				123145AB1D402B1E00A19632 /* vidPerson.swift in Sources */,
 				12806B621D1B67D400163666 /* ChoosePersonView.swift in Sources */,
 				1202A4831D176C9600C7E17A /* settings.swift in Sources */,
+				12EF111D1D66428B000E650C /* ContentDeliveryViewController.swift in Sources */,
 				123145BF1D45D09F00A19632 /* FavoritesViewController.swift in Sources */,
 				123145CD1D4AB9AE00A19632 /* CustomFlowLayout.swift in Sources */,
+				12EF11221D66428B000E650C /* UserFilesViewController.swift in Sources */,
 				123145D41D51310B00A19632 /* ItemView.swift in Sources */,
+				12EF11201D66428B000E650C /* UserDataStorageViewController.swift in Sources */,
+				12EF10FD1D657911000E650C /* AWSLoginViewController.swift in Sources */,
+				12EF11071D657DBD000E650C /* SignInViewController.swift in Sources */,
 				123145BA1D45CFF100A19632 /* SettingsViewController.swift in Sources */,
+				12EF111E1D66428B000E650C /* DemoFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,10 +859,25 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF3C7B907740BAE1C6B4B8C5 /* Pods-QuickPitch.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Aws",
+					"$(PROJECT_DIR)/Facebook",
+					"$(PROJECT_DIR)/Google",
+					"$(PROJECT_DIR)/AmazonAws",
+					"$(PROJECT_DIR)/extras",
+				);
 				INFOPLIST_FILE = QuickPitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = QuickPitch.QuickPitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = QuickPitch/BridgingHeader.h;
@@ -598,10 +888,25 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C592FA220B03D9E0D71685A /* Pods-QuickPitch.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+					"$(PROJECT_DIR)/Aws",
+					"$(PROJECT_DIR)/Facebook",
+					"$(PROJECT_DIR)/Google",
+					"$(PROJECT_DIR)/AmazonAws",
+					"$(PROJECT_DIR)/extras",
+				);
 				INFOPLIST_FILE = QuickPitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = QuickPitch.QuickPitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = QuickPitch/BridgingHeader.h;
